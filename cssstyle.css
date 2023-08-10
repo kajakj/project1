@@ -53,3 +53,21 @@ a {
 a:hover {
     color: #ec0ace;
 }
+
+#sign-up {
+    background-image: url(images/vyklad.JPG);
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(5, 13, 5);
+}
+
+h2,
+h3 {
+    background-color: rgba(127, 255, 212, 0.7);
+    padding: 5px;
+}
