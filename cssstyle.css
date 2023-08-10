@@ -1,0 +1,55 @@
+html {
+    background-color:black;
+    
+}
+body {
+    background-color: aquamarine;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    height: 150px;
+
+}
+
+header > div {
+    flex: 1;
+    text-align: center;
+    align-self: flex-end;
+
+}
+
+li {
+    display: inline;
+}
+
+header img {
+max-width: 100px;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 25px;
+}
+
+ul {
+    margin: 10px ;
+}
+
+a {
+   text-decoration: none;
+   color: black; 
+}
+
+a:hover {
+    color: #ec0ace;
+}
